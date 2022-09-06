@@ -1,0 +1,6 @@
+<log realm="server" at="2021-09-16T10:30:39.394732800">
+  <iso-server>
+    listening on port 10000
+    <allocated>4943128</allocated>
+  </iso-server>
+</log>

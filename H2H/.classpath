@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="H2H_Server/src/main/java"/>
+	<classpathentry kind="src" path="jPOS/compat_1_5_2/src/main/java"/>
+	<classpathentry kind="src" path="jPOS/jpos/src/main/java"/>
+	<classpathentry kind="src" path="jPOS/jpos/src/test/java"/>
+	<classpathentry kind="src" path="jPOS/qnode/src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jPOS/jpos/src/dist/bin/bsh">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jPOS/jpos/src/main/java/org/jpos/iso/ISORequestListener.java">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="H2H_Server/target/H2H_Server-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="H2H_Server/target/surefire/surefirebooter338158740463015308.jar"/>
+	<classpathentry kind="lib" path="jPOS/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="jPOS/incoming/ISOMsgDeepCopier/jpos-util-src.jar"/>
+	<classpathentry kind="lib" path="jPOS/incoming/ISOMsgDeepCopier/jpos-util-test.jar"/>
+	<classpathentry kind="output" path="H2H_Server/target/classes"/>
+</classpath>
